@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "spindoctor-qwerty",
+  "version": "1.1.0",
+  "description": "SpinDoctor 3.1.2 quantum-circuit SIMULATOR plugin for Mistral Vibe: q.* scripts (1-298 logical qubits), 241 presets, q.folder, theory testing from files or the chat, TXT/PDF/JSON/CSV reports. Bundled stdlib-only Python engine; classical FP64 simulation, not a quantum computer.",
+  "author": {
+    "name": "RUSSELL PHILIP SMITHSON",
+    "email": "russellsmithson77@outlook.com",
+    "url": "https://github.com/LKVexa"
+  },
+  "homepage": "https://github.com/LKVexa/spindoctor-qwerty-mistral-vibe",
+  "repository": "https://github.com/LKVexa/spindoctor-qwerty-mistral-vibe",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "spindoctor",
+    "quantum",
+    "quantum-circuit",
+    "qubits",
+    "quantum-simulator",
+    "simulator",
+    "mcp",
+    "mistral-vibe"
+  ],
+  "extensions": {
+    "ai.mistral.vibe": {
+      "schemaVersion": 1,
+      "toolNamespace": "spindoctorQwerty"
+    }
+  }
+}
